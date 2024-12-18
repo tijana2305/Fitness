@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Zdravlje i Wellness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kontakt.css">
+</head>
+<body>
+
+    <!-- Header sa navigacijom -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://presvegazdravlje.com/wp-content/uploads/2021/04/Icon-Zdravlje.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="onama.html">O nama</a></li>
+                    <li><a href="saveti.html">Saveti</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Glavni sadržaj -->
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h1>Kontaktirajte nas</h1>
+                <p>Ukoliko imate bilo kakvih pitanja ili želite da saznate više informacija o zdravlju i wellness-u, slobodno nas kontaktirajte putem sledeće forme ili koristite naše kontakt informacije.</p>
+
+                <!-- Kontakt Forma -->
+                <form action="#" method="POST" class="contact-form">
+                    <label for="name">Ime i Prezime:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Poruka:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="btn-primary">Pošaljite</button>
+                </form>
+
+                <!-- Kontakt Informacije -->
+                <div class="contact-info">
+                    <h2>Naše Informacije</h2>
+                    <ul>
+                        <li><strong>Adresa:</strong> Ulica Zdravlja 123, Beograd, Srbija</li>
+                        <li><strong>Email:</strong> <a href="mailto:info@zdravljeiwellness.com">info@zdravljeiwellness.com</a></li>
+                        <li><strong>Telefon:</strong> +381 11 1234567</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zdravlje i Wellness. Sva prava zadržana.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
